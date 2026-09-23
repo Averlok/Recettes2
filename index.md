@@ -8,18 +8,7 @@ nav_order: 1
 
 ![Le loup et la hérissonne en cuisine](images/1790150181199.png)
 
-
-> **Bienvenue dans notre carnet de cuisine.**
-> Ce recueil rassemble certaines de nos recettes favorites, classées avec soin pour vous accompagner au quotidien.
+> **Bienvenue dans notre carnet culinaire.**
+> Ce livre rassemble nos meilleures trouvailles, des recettes glanées ici et là au fil du temps, testées et adaptées dans notre cuisine. Un précieux ramassis de bons plats réconfortants et de gourmandises à partager.
 > 
-> * **Sections du livre :**
->   * Pains et Pizzas
->   * Biscuits et Friandises
->   * Déjeuners et Barres Énergétiques
->   * Salades et Entrées
->   * Plats Principaux
->   * Soupes
->   * Sauces
-> 
-> Bonne consultation et belle découverte culinaire.
-
+> Bonne consultation et bonne cuisine !
