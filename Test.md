@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: Test
+layout: home
 ---
 
 hhhjjjj
