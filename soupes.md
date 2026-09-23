@@ -36,7 +36,7 @@ permalink: /soupes
 > * 1 croûte de parmesan
 > * Basilic frais et parmesan râpé pour garnir
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Faire revenir la pancetta et les oignons 5 min, ajouter les légumes (2 min), puis l'ail et les herbes (1 min).
 > 2. Déglacer au vin, puis ajouter bouillons, tomates, haricots et croûte de parmesan. Mijoter 10 min.
 > 3. Ajouter les pâtes, arrêter la cuisson 2 minutes avant la fin du temps "al dente", laisser reposer 5 minutes et servir.
@@ -57,7 +57,7 @@ permalink: /soupes
 > * 1/8 cuillère à thé sauce tabasco
 > * 1/3 cuillère à thé sauce Worcestershire
 >
-> **Étapes :**
+> **Préparation :**
 > 1. Chauffer l'huile, l'ail et l'oignon.
 > 2. Ajouter le fécule de maïs. Cuire 1 minute.
 > 3. Ajouter les autres ingrédients. Amener à ébullition. Servir.
