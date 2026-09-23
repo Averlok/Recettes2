@@ -41,23 +41,4 @@ permalink: /soupes
 > 2. Déglacer au vin, puis ajouter bouillons, tomates, haricots et croûte de parmesan. Mijoter 10 min.
 > 3. Ajouter les pâtes, arrêter la cuisson 2 minutes avant la fin du temps "al dente", laisser reposer 5 minutes et servir.
 
----
 
-## Sauce Diable
-> **Ingrédients :**
-> * 1/4 tasse huile végétale
-> * 3 gousses d'ail hachées finement
-> * 1 cuillère à thé fécule de maïs
-> * 1/4 tasse relish
-> * 2 cuillères à table vinaigre blanc
-> * 1/2 tasse Ketchup
-> * 1 oignon haché finement
-> * 1/2 cuillère à thé sel
-> * 1 cuillère à thé moutarde sèche
-> * 1/8 cuillère à thé sauce tabasco
-> * 1/3 cuillère à thé sauce Worcestershire
->
-> **Préparation :**
-> 1. Chauffer l'huile, l'ail et l'oignon.
-> 2. Ajouter le fécule de maïs. Cuire 1 minute.
-> 3. Ajouter les autres ingrédients. Amener à ébullition. Servir.
