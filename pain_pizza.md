@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: defqult
 title: "Pains et Pizzas"
 nav_order: 2
 permalink: /Pain_Pizzas
