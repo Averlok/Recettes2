@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Pains et Pizzas"
+title: "🍞 Pains et Pizzas"
 nav_order: 2
 permalink: /Pain_Pizzas
 ---
