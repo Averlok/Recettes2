@@ -7,16 +7,16 @@ permalink: /Pain_Pizzas
 <!--# 📚 Livre de Recettes-->
 
 <div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
-*🍞 Pains et Pizzas**
+**🍞 Pains et Pizzas**
 </div>
 
 
 * Table des matières 
-{:toc min_level=4 max_level=4}
+{:toc min_level=3 max_level=3}
 
 ---
 
-## Pain croûté au fromage et aux herbes en cocotte de fonte
+### Pain croûté au fromage et aux herbes en cocotte de fonte
 
 **Ingrédients :**
 * 3 tasses de farine blanche non blanchie, tamisée
