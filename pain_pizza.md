@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: home
 title: "Pains et Pizzas"
 nav_order: 2
 permalink: /Pain_Pizzas
 ---
 <!--# 📚 Livre de Recettes-->
 
-**Table des matières**
+**🍞 Pains et Pizzas**
 * Table des matières 
-{:toc min_level=2 max_level=3}
+{:toc min_level=3 max_level=3}
 
 ---
 
