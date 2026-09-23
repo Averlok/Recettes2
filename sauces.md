@@ -2,7 +2,7 @@
 layout: home
 title: "🍯 Sauces"
 nav_order: 8
-permalink: /soupes
+permalink: /sauces
 ---
 
 <div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
@@ -42,3 +42,24 @@ permalink: /soupes
 > 1. Mélanger tous les ingrédients ensemble.
 > 2. Laisser reposer de 10 à 15 minutes si possible.
 > 3. Goûter avant de servir.
+> 4. 
+---
+
+## Sauce Diable
+> **Ingrédients :**
+> * 1/4 tasse huile végétale
+> * 3 gousses d'ail hachées finement
+> * 1 cuillère à thé fécule de maïs
+> * 1/4 tasse relish
+> * 2 cuillères à table vinaigre blanc
+> * 1/2 tasse Ketchup
+> * 1 oignon haché finement
+> * 1/2 cuillère à thé sel
+> * 1 cuillère à thé moutarde sèche
+> * 1/8 cuillère à thé sauce tabasco
+> * 1/3 cuillère à thé sauce Worcestershire
+>
+> **Préparation :**
+> 1. Chauffer l'huile, l'ail et l'oignon.
+> 2. Ajouter le fécule de maïs. Cuire 1 minute.
+> 3. Ajouter les autres ingrédients. Amener à ébullition. Servir.
