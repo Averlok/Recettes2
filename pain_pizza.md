@@ -16,7 +16,7 @@ permalink: /Pain_Pizzas
 
 ---
 
-### Pain croûté au fromage et aux herbes en cocotte de fonte
+## Pain croûté au fromage et aux herbes en cocotte de fonte
 
 **Ingrédients :**
 * 3 tasses de farine blanche non blanchie, tamisée
@@ -39,7 +39,7 @@ permalink: /Pain_Pizzas
 
 ---
 
-### Miche
+## Miche
 
 **Ingrédients :**
 * 450 ml eau
@@ -59,7 +59,7 @@ permalink: /Pain_Pizzas
 
 ---
 
-### Pâte à pizza - Comme au resto
+## Pâte à pizza - Comme au resto
 
 **Ingrédients :**
 * Eau 375 ml (1 ½ tasse)
@@ -82,7 +82,7 @@ permalink: /Pain_Pizzas
 
 ---
 
-### Pâte à pizza - Yogourt
+## Pâte à pizza - Yogourt
 
 **Ingrédients :**
 * 1t farine
@@ -95,7 +95,7 @@ permalink: /Pain_Pizzas
 
 ---
 
-### Pâte à pizza - Mince
+## Pâte à pizza - Mince
 
 **Ingrédients :**
 * 400g de farine tout-usage
@@ -106,7 +106,7 @@ permalink: /Pain_Pizzas
 
 ---
 
-### Pâte à pizza - Base
+## Pâte à pizza - Base
 
 **Ingrédients :**
 * 250 ml (1 tasse) d'eau tiède
