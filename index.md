@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-## Le livre de recettes HériLoup
+# Le livre de recettes HériLoup
 
 ![Le loup et la hérissonne en cuisine](images/1790150181199.png)
 
