@@ -19,7 +19,7 @@ permalink: /Pain_Pizzas
 ## Pain croûté au fromage et aux herbes en cocotte de fonte
 
 **Ingrédients :**
-[ ] 3 tasses de farine blanche non blanchie, tamisée
+- [ ] 3 tasses de farine blanche non blanchie, tamisée
 * 1 c. à thé de sel
 * 2 tasses de vieux cheddar râpé
 * 3 c. à soupe d'herbes mélangées au choix (Oignons secs, fleur d'ail, herbes de provence...)
