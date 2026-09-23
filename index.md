@@ -6,6 +6,9 @@ nav_order: 1
 
 ## Le livre de recettes HériLoup
 
+![Le loup et la hérissonne en cuisine](images/1790150181199.png)
+
+
 > **Bienvenue dans notre carnet de cuisine.**
 > Ce recueil rassemble certaines de nos recettes favorites, classées avec soin pour vous accompagner au quotidien.
 > 
