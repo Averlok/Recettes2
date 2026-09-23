@@ -15,7 +15,7 @@ permalink: /soupes
 
 ---
 
-### Soupe minestrone Élo + JP ❤️
+## Soupe minestrone Élo + JP ❤️
 > **Ingrédients :**
 > * 2 oignons jaunes coupés en dés
 > * 2 gousses d’ail hachées
