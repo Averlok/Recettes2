@@ -16,18 +16,17 @@ permalink: /dejeuner-energie
 ---
 
 ## Granola Élo
-
-**Ingrédients :**
-* 4 T. Épeautre
-* 1 T. graines citrouille
-* 1 T. Amandes tranchées
-* 1 T. pacanes
-* 1 T. graines tournesol
-* 4 c. soupe d'huile
-* 1/2 T. miel
-
-**Étapes :**
-1. Tout mélanger
-2. Cuire à 300°F - 40 mins, remuer aux 10 mins.
+> **Ingrédients :**
+> * 4 T. Épeautre
+> * 1 T. graines citrouille
+> * 1 T. Amandes tranchées
+> * 1 T. pacanes
+> * 1 T. graines tournesol
+> * 4 c. soupe d'huile
+> * 1/2 T. miel
+> 
+> **Étapes :**
+> 1. Tout mélanger
+> 2. Cuire à 300°F - 40 mins, remuer aux 10 mins.
 
 ---
