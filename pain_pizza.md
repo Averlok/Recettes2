@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Pains et Pizzas"
-nav_order: 2
+nav_order: 3
 permalink: /Pain_Pizzas
 ---
 <!--# 📚 Livre de Recettes-->
