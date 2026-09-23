@@ -109,8 +109,8 @@ permalink: /Pain_Pizzas
 ## Pâte à pizza - Base
 
 **Ingrédients :**
-* 250 ml (1 tasse) d'eau tiède
-* 5 ml (1 c. à thé) de levure instantanée
-* 5 ml (1 c. à thé) de sucre
-* 300 g (2 tasses) de farine tout usage
-* 5 ml (1 c. à thé) de sel
+> * 250 ml (1 tasse) d'eau tiède
+> * 5 ml (1 c. à thé) de levure instantanée
+> * 5 ml (1 c. à thé) de sucre
+> * 300 g (2 tasses) de farine tout usage
+> * 5 ml (1 c. à thé) de sel
