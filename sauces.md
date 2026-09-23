@@ -42,7 +42,7 @@ permalink: /sauces
 > 1. Mélanger tous les ingrédients ensemble.
 > 2. Laisser reposer de 10 à 15 minutes si possible.
 > 3. Goûter avant de servir.
-> 4. 
+
 ---
 
 ## Sauce Diable
