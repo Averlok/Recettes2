@@ -2,9 +2,83 @@
 layout: page
 title: "Test"
 permalink: /Test
---- 
+---
+<!--# 📚 Livre de Recettes-->
 
-Just the Docs
+**Table des matières**
+* Table des matières 
+{:toc min_level=2 max_level=3}
+
+---
+
+
+
+<div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
+## 🍞 Pains et Pâtes
+</div>
+
+### Pain croûté au fromage et aux herbes en cocotte de fonte
+
+**Ingrédients :**
+* 3 tasses de farine blanche non blanchie, tamisée
+* 1 c. à thé de sel
+* 2 tasses de vieux cheddar râpé
+* 3 c. à soupe d'herbes mélangées au choix (Oignons secs, fleur d'ail, herbes de provence...)
+* 1 1/2 tasse d'eau tiède (vers+chand)
+* 1 c. à thé de sucre
+* 1 c. à thé de levure
+
+**Étapes :**
+1. Dissoudre le sucre dans l'eau, ajouter la levure et laisser reposer 10 minutes.
+2. Mélanger ensemble la farine, le sel, le fromage et les herbes.
+3. Ajouter le mélange de levure et bien combiner.
+4. Couvrir d'une pellicule plastique et laisser pousser de 3h à 5h, soit jusqu'à ce que la pâte ait doublé.
+5. Placer une cocotte fermée au four à 450°f et laisser préchauffer 30 minutes.
+6. Verser la pâte sur une surface enfarinée, former la miche et transférer sur une feuille de papier parchemin puis scarifier.
+7. Transférer dans la cocotte chaude et cuire à couvercle fermé 30 minutes.
+8. Retirer le couvercle et cuire 20 minutes de plus.
+
+---
+
+### Miche
+
+**Ingrédients :**
+* 450 ml eau
+* 3/4 tsp levure
+* 4 tasses de farine
+* 2 tsp sel
+
+**Étapes :**
+1. Mélanger
+2. Reposer 3-4 heure bol et conserver au frigo ou 8-12 heures température ambiante
+3. Façonner / fariner / scoring
+4. Reposer à couvert 30 minutes
+5. Préchauffer cocotte 475f
+6. 15 minutes avec couvercle - 475
+7. 15 minutes avec couvercle - 450
+8. 15 minutes sans couvercle - 440
+
+---
+
+### Pâte à pizza - Comme au resto
+
+**Ingrédients :**
+* Eau 375 ml (1 ½ tasse)
+* Levure instantanée 1 sachet de 8 g ou 10 ml (2 c. à thé)
+* Sucre 5 ml (1 c. à thé)
+* Farine tout usage 550 g (4 tasses)
+* Huile d'olive 30 ml (2 c. à soupe)
+* Sel 7,5 ml (½ c. à soupe)
+
+**Étapes :**
+1. Dans un grand bol allant au four à micro-ondes, chauffez l'eau de 10 à 15 secondes ou jusqu'à ce qu'elle soit tiède. Un liquide trop froid ou trop chaud nuira à l'efficacité de la levure.
+2. Ajoutez la levure et le sucre dans le bol. À l'aide d'une fourchette, mélangez le tout.
+3. Incorporez la farine, l'huile et le sel. Avec les mains, formez une boule de pâte.
+4. Sur une surface de travail propre, pétrissez la pâte de 5 à 10 minutes, jusqu'à ce qu'elle soit bien lisse. Lorsqu'elle commence à se déchirer, c'est qu'elle a été suffisamment pétrie. Au besoin, ajoutez un peu de farine pour éviter que la pâte colle sur le comptoir.
+5. Retirez les résidus de pâte du bol utilisé pour mélanger les ingrédients, puis huilez-le légèrement et remettez-y la boule de pâte. Couvrez le tout d'un linge humide et laissez reposer la pâte 3 heures à température ambiante, jusqu'à ce qu'elle ait doublé de volume.
+6. Séparez la pâte en 2 et, avec les mains, formez une boule avec chacune des parts.
+
+* À essayer : [https://www.signegourmand.com/recettes/plats-principaux/pate-a-pizza](https://www.signegourmand.com/recettes/plats-principaux/pate-a-pizza)
 * Calculateur : [https://www.lapizzashop.ca/calculatrice-de-pate/](https://www.lapizzashop.ca/calculatrice-de-pate/)
 
 ---
@@ -450,146 +524,4 @@ Rincer le quinoa à l'eau froide avant la cuisson pour retirer son amertume, et 
 * 1 c. à soupe d’huile (pour la cuisson)
 
 **Préparation :**
-1. Verser le bouillon sur le PVT, gonfler 5 minutes.
-2. Ajouter le reste des ingrédients, mélanger et laisser reposer 10 minutes. Façonner 6 galettes.
-3. **Cuisson :** Air fryer (375 °F / 10-12 min) ou à la poêle (4-5 min par côté).
-
----
-
-### Banh Mi Sriracha Burgers
-
-**Ingrédients (Burgers) :**
-* 1 lb de porc haché
-* 2 c. à soupe de sauce soya réduite en sodium
-* 2 c. à soupe de coriandre finement hachée
-* ¼ tasse d'oignon vert finement haché
-* 2 c. à thé de gingembre râpé
-* 1 gousse d'ail émincée
-* ¼ c. à thé de flocons de piment rouge
-
-**Ingrédients (Salade de chou) :**
-* 1 tasse de carottes râpées
-* 1 tasse de chou vert râpé
-* 2 c. à soupe de jalapeños tranchés
-* 1 c. à soupe de jus de lime
-* 1 c. à soupe de miel
-* ¼ c. à thé de sel
-
-**Ingrédients (Mayo Sriracha & Service) :**
-* ½ tasse de mayonnaise
-* 1 c. à thé de Sriracha
-* Concombre en rubans, coriandre fraîche et pains briochés
-
-**Préparation :**
-1. Mélanger les ingrédients de la salade de chou et réfrigérer. Mélanger la mayo et la sriracha.
-2. Préparer les galettes de porc haché et cuire à la poêle 5-6 minutes de chaque côté.
-3. Assembler dans les pains briochés avec la mayo, les galettes, les rubans de concombre et la salade de chou.
-
----
-
-### Poulet Shish Taouk
-
-**Ingrédients :**
-* 2 c. à table d'huile d'olive
-* 1 c. à table de pâte de tomates
-* 1 c. à thé de paprika doux
-* 1 c. à thé d'origan séché
-* 1 c. à thé de flocons de piment broyé
-* ½ c. à thé de poudre d'oignon
-* ½ c. à thé de piment de la Jamaïque moulu
-* ½ c. à thé de sel
-* 4 gousses d'ail hachées finement
-* 900 g (2 livres) de hauts de cuisse de poulet désossés et sans peau
-* 1 citron lavé et coupé en deux
-
-**Préparation :**
-1. Mélanger les épices, l'huile et l'ail, puis y enrober le poulet.
-2. Mettre de l'eau et une grille dans l'autocuiseur (Instant Pot), y déposer le poulet et les moitiés de citron.
-3. Cuire 8 minutes à haute pression suivi d'un dégagement naturel (NR) d'environ 10 minutes. Presser le citron sur le poulet au moment de servir.
-
----
-### Pâtes à la courgette
-
-**Ingrédients :**
-* 1t de purée de courge musquée
-* 1 paquet d’épinards 
-* 1 oignon
-* 1/2t de tomates séchées choppées
-* 1 gros oignon jaune
-* 4 gousses d’ail émincées 
-* 1t de crème 
-* 1/2t cheddar fort râpé 
-* 2 c à t harissa (à ajuster selon votre spice tolerance)
-* 2t coquilles 
-* Du paprika 😀
-
-**Étapes :**
-Faire revenir l’oignon, l’ail, les épinards. Ajouter la purée de courge et utiliser l’eau de cuisson des pâtes pour la rendre plus « smooth ». 
-Ajouter les tomates et la crème. Laisser la crème épaissir, ajouter le fromage et épicer en suivant ce que votre cœur vous dit 😌
-
----
-<div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
-## 🥣 Soupes
-</div>
-
-### Soupe minestrone Élo + JP ❤️
-
-**Ingrédients :**
-* 2 oignons jaunes coupés en dés
-* 2 gousses d’ail hachées
-* 2 grosses carottes coupées en dés
-* 2 branches de céleri coupées en dés
-* 1 courgette coupée en dés
-* 2 tasses de choux Kale haché finement
-* Environ 125 g de pancetta coupée en dés
-* 796 ml de tomates italiennes en dés
-* 540 ml de haricots blancs
-* 1 c. à thé d’origan
-* ½ c. à thé de thym
-* ½ tasse de vin blanc (ou bouillon + jus de citron)
-* 900 ml de bouillon de poulet
-* 900 ml de bouillon de légumes à 30 % moins de sel
-* Poivre au goût
-* ⅔ tasse de petites pâtes ditali
-* 1 croûte de parmesan
-* Basilic frais et parmesan râpé pour garnir
-
-**Préparation :**
-1. Faire revenir la pancetta et les oignons 5 min, ajouter les légumes (2 min), puis l'ail et les herbes (1 min).
-2. Déglacer au vin, puis ajouter bouillons, tomates, haricots et croûte de parmesan. Mijoter 10 min.
-3. Ajouter les pâtes, arrêter la cuisson 2 minutes avant la fin du temps "al dente", laisser reposer 5 minutes et servir.
-
----
-<div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
-## 🍯 Sauces
-</div>
-
-### Sauce moutarde
-
-**Ingrédients :**
-* ½ t huile
-* ¼ t miel liquide
-* ¼ c. à thé de sel
-* ⅙ t ketchup
-* ¼ t moutarde jaune
-* ¼ oignons hachés
-* ¼ c. à thé sauce Worcestershire
-* ¼ c. à thé sucre
-* ¼ c. à thé persil
-
-### Sauce crémeuse à l'aneth
-
-**Ingrédients :**
-* 1/2 tasse de crème sure ou yogourt grec nature
-* 1 à 2 c. à soupe de mayonnaise
-* 1 bonne c. à soupe d'aneth frais haché (ou 1 c. à thé d'aneth séché)
-* 1 c. à thé de moutarde de Dijon
-* 1/2 citron (zeste + un peu de jus)
-* 1 petite gousse d'ail râpée ou très finement hachée
-* Sel et poivre
-* Optionnel : un petit filet de miel ou sirop d'érable pour arrondir l'acidité
-
-**Étapes :**
-1. Mélanger tous les ingrédients ensemble.
-2. Laisser reposer de 10 à 15 minutes si possible.
-3. Goûter avant de servir.
+1. Verser le bouillon sur 
