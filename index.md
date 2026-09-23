@@ -1,5 +1,5 @@
 ---
-title: Accueil
+title: 📚 Accueil
 layout: home
 nav_order: 1
 ---
