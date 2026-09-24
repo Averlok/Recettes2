@@ -4,9 +4,11 @@ theme: just-the-docs
 
 url: https://averlok.github.io
 
-search:
-  heading: "Recherche"
-  placeholder: "Rechercher dans les recettes..."
+kramdown:
+  auto_ids: true
+  header_offset: 0
+  transliterated_header_ids: true
+
 
 
 #aux_links:
