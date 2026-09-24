@@ -81,3 +81,21 @@ permalink: /sauces
 > 1. Taillez votre poulet en fines lanières ou en cubes.
 > 2. Mélangez tous les ingrédients dans un bol ou un sac de congélation et laissez reposer au minimum 20 minutes au frais.
 > 3. Saisissez le poulet à la poêle à feu vif jusqu'à ce qu'il soit bien doré et laqué.
+
+---
+
+## Vinaigrette "Asiatique" au Beurre de Cacahuète
+
+> **Ingrédients :**
+> * 2 c. à soupe Beurre de cacahuète
+> * 1 c. à soupe Sauce soja
+> * 2 c. à soupe Vinaigre de riz (ou jus de lime)
+> * 2 c. à soupe Huile neutre (colza ou tournesol)
+> * 1 c. à soupe Miel ou sirop d'érable
+> * 1 à 2 c. à soupe Eau tiède
+> * 1 pincée Gingembre râpé (optionnel)
+>
+> **Préparation :**
+> 1. Dans un petit bol, mélangez d'abord le beurre de cacahuète et le miel.
+> 2. Ajoutez les liquides (soja, vinaigre, huile) et fouettez énergiquement.
+> 3. Ajoutez l'eau tiède petit à petit jusqu'à obtenir une consistance fluide mais nappante.
