@@ -38,7 +38,7 @@ permalink: /sauces
 > * Sel et poivre
 > * Optionnel : un petit filet de miel ou sirop d'érable pour arrondir l'acidité
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Mélanger tous les ingrédients ensemble.
 > 2. Laisser reposer de 10 à 15 minutes si possible.
 > 3. Goûter avant de servir.
