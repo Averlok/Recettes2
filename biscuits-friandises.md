@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🍪 Biscuits et Friandises"
+title: "🍪 Desserts et Friandises"
 nav_order: 3
 permalink: /biscuits-friqndises
 ---
 
 <div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
-**🍪 Biscuits et Friandises**
+**🍪 Desserts et Friandises**
 </div>
 
 
@@ -87,3 +87,28 @@ permalink: /biscuits-friqndises
 > 1. Tapisser un moule carré de 8 pouces de papier d'aluminium en laissant dépasser le papier sur les côtés du moule. Dans un grand bol allant au micro-ondes, chauffer le chocolat et le lait à intensité MOYENNE, de 2 à 3 min ou jusqu'à ce que le chocolat soit presque fondu; remuer jusqu'à ce que le chocolat soit complètement fondu. Incorporer les amandes, les canneberges et le zeste d'orange.
 > 2. Étaler dans le moule préparé. Réfrigérer 2 heures ou jusqu'à ce que le fudge soit ferme.
 > 3. Démouler en utilisant le papier d'aluminium. Tailler en morceaux.
+
+---
+
+## Croustade pommes et fraises
+
+> **Ingrédients :**
+> * 4 tasses Pommes Paula Red (coupées en dés fins, avec la pelure)
+> * 2 tasses Fraises fraîches (coupées en deux)
+> * 2 cuillères à soupe Sucre
+> * 1 cuillère à soupe Fécule de maïs
+> * 1 cuillère à thé Jus de citron
+> * 0.5 cuillère à thé Cannelle
+> * 1 tasse Flocons d'avoine
+> * 0.5 tasse Farine tout usage
+> * 0.5 tasse Cassonade tassée
+> * 0.5 tasse Beurre non salé (fondu)
+> * 1 pincée Sel
+>
+> **Préparation :**
+> 1. Préchauffer le four à 350 °F (180 °C) et beurrer un moule carré de 8x8 pouces.
+> 2. Bien laver les pommes, les évider et les couper en dés fins sans les peler.
+> 3. Dans un grand bol, mélanger les pommes, les fraises, le sucre, la fécule de maïs, le jus de citron et la cannelle, puis verser le tout dans le moule.
+> 4. Dans un autre bol, mélanger l'avoine, la farine, la cassonade, le sel et le beurre fondu à la fourchette jusqu'à l'obtention de gros grumeaux.
+> 5. Étendre le mélange de croustade uniformément sur les fruits.
+> 6. Cuire au four pendant 40 à 45 minutes, jusqu'à ce que le dessus soit bien doré et que les fruits bouillonnent.
