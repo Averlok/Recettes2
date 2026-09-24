@@ -1,3 +1,4 @@
+---
 layout: home
 title: "⛺ Camping"
 nav_order: 9
