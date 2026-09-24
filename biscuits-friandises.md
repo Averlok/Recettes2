@@ -31,7 +31,7 @@ permalink: /biscuits-friqndises
 > * 1 blanc d'œuf
 > * 375 ml (1 1/2 tasse) de sucre à glacer
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Dans un bol, mélanger la farine, le gingembre, le bicarbonate, la cannelle, la muscade et le sel. Réserver.
 > 2. Dans un autre bol, crémer le beurre avec la cassonade et la mélasse au batteur électrique environ 2 minutes. Ajouter l'œuf et bien mélanger. À basse vitesse ou à la cuillère de bois, incorporer les ingrédients secs et mélanger jusqu'à ce que la pâte soit lisse et homogène.
 > 3. Former 2 disques et les envelopper de pellicule de plastique. Réfrigérer 1 heure.
@@ -52,7 +52,7 @@ permalink: /biscuits-friqndises
 > * 1/2 c. à thé de sel
 > * 1/2 tasse de canneberges séchées hachées
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Travailler le beurre, le sucre à glacer et la vanille avec une cuillère en bois jusqu'à obtention d'une texture lisse. Ajouter la farine et le sel; remuer juste assez pour combiner. Incorporer les canneberges séchées. Diviser la pâte en quatre portions.
 > 2. Sur du papier parchemin, façonner chaque portion en un boudin d'environ 1 1/2 po de diamètre et 4 po de longueur. Envelopper hermétiquement les boudins dans du papier parchemin ou une pellicule plastique. Réfrigérer 30 minutes ou jusqu'à 1 jour.
 > 3. Préchauffer le four à 325 °F. À l'aide d'un couteau bien affûté, trancher la pâte en rondelles d'une épaisseur de 1/4 po. Faire pivoter le boudin pendant la coupe pour éviter qu'il ne s'aplatisse. Disposer les rondelles sur des plaques à biscuits tapissées de papier parchemin, en les espaçant de 1 po.
@@ -66,7 +66,7 @@ permalink: /biscuits-friqndises
 > * 60 ml (1/4 tasse) de raisins de Corinthe séchés
 > * 1 recette de biscuits au beurre de base
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Dans une petite casserole, chauffer le rhum. Ajouter les raisins et laisser mijoter environ 3 minutes ou jusqu'à ce que les raisins aient absorbé tout le liquide. Transvider dans un petit bol. Laisser refroidir complètement.
 > 2. Dans un bol, déposer la recette de biscuits au beurre. Ajouter les raisins au rhum et bien mélanger. Façonner deux disques et envelopper de pellicule plastique. Réfrigérer 1 heure.
 > 3. Placer la grille au centre du four. Préchauffer le four à 180 °C (350 °F). Tapisser une plaque à biscuits de papier parchemin ou d'un tapis en silicone.
@@ -83,7 +83,7 @@ permalink: /biscuits-friqndises
 > * 1/2 tasse de canneberges séchées
 > * 1 c. à soupe de zeste d'orange (ou agrumes confits)
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Tapisser un moule carré de 8 pouces de papier d'aluminium en laissant dépasser le papier sur les côtés du moule. Dans un grand bol allant au micro-ondes, chauffer le chocolat et le lait à intensité MOYENNE, de 2 à 3 min ou jusqu'à ce que le chocolat soit presque fondu; remuer jusqu'à ce que le chocolat soit complètement fondu. Incorporer les amandes, les canneberges et le zeste d'orange.
 > 2. Étaler dans le moule préparé. Réfrigérer 2 heures ou jusqu'à ce que le fudge soit ferme.
 > 3. Démouler en utilisant le papier d'aluminium. Tailler en morceaux.
