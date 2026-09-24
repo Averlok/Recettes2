@@ -26,7 +26,7 @@ permalink: /Pain_Pizzas
 > * 1 c. à thé de sucre
 > * 1 c. à thé de levure
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Dissoudre le sucre dans l'eau, ajouter la levure et laisser reposer 10 minutes.
 > 2. Mélanger ensemble la farine, le sel, le fromage et les herbes.
 > 3. Ajouter le mélange de levure et bien combiner.
@@ -45,7 +45,7 @@ permalink: /Pain_Pizzas
 > * 4 tasses de farine
 > * 2 tsp sel
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Mélanger
 > 2. Reposer 3-4 heure bol et conserver au frigo ou 8-12 heures température ambiante
 > 3. Façonner / fariner / scoring
@@ -66,7 +66,7 @@ permalink: /Pain_Pizzas
 > * Huile d'olive 30 ml (2 c. à soupe)
 > * Sel 7,5 ml (½ c. à soupe)
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Dans un grand bol allant au four à micro-ondes, chauffez l'eau de 10 à 15 secondes ou jusqu'à ce qu'elle soit tiède. Un liquide trop froid ou trop chaud nuira à l'efficacité de la levure.
 > 2. Ajoutez la levure et le sucre dans le bol. À l'aide d'une fourchette, mélangez le tout.
 > 3. Incorporez la farine, l'huile et le sel. Avec les mains, formez une boule de pâte.
@@ -86,7 +86,7 @@ permalink: /Pain_Pizzas
 > * 1/2 c a the sel
 > * 1t yogourt
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. 475 au four environ 15 minutes
 
 ---
