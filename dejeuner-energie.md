@@ -25,7 +25,7 @@ permalink: /dejeuner-energie
 > * 4 c. soupe d'huile
 > * 1/2 T. miel
 > 
-> **Étapes :**
+> **Préparation :**
 > 1. Tout mélanger
 > 2. Cuire à 300°F - 40 mins, remuer aux 10 mins.
 
