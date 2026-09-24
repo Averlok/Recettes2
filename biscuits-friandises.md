@@ -93,8 +93,8 @@ permalink: /biscuits-friqndises
 ## Croustade pommes et fraises
 
 > **Ingrédients :**
-> * 4 tasses Pommes Paula Red ou Cortland (coupées en dés fins)
-> * 2 tasses Fraises fraîches (coupées en deux)
+> * 4 tasses Pommes Paula Red ou Cortland
+> * 2 tasses Fraises fraîches (coupées en morceaux)
 > * 2 cuillères à soupe Sucre
 > * 1 cuillère à soupe Fécule de maïs
 > * 1 cuillère à thé Jus de citron
@@ -107,7 +107,7 @@ permalink: /biscuits-friqndises
 >
 > **Préparation :**
 > 1. Préchauffer le four à 350 °F (180 °C) et beurrer un moule carré de 8x8 pouces.
-> 2. Bien laver les pommes, les évider et les couper en dés fins sans les peler.
+> 2. Bien laver les pommes, les évider et les couper en dés fins.
 > 3. Dans un grand bol, mélanger les pommes, les fraises, le sucre, la fécule de maïs, le jus de citron et la cannelle, puis verser le tout dans le moule.
 > 4. Dans un autre bol, mélanger l'avoine, la farine, la cassonade, le sel et le beurre fondu à la fourchette jusqu'à l'obtention de gros grumeaux.
 > 5. Étendre le mélange de croustade uniformément sur les fruits.
