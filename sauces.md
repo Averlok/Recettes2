@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🍯 Sauces"
+title: "🍯 Sauces, vinaigrettes et marinades"
 nav_order: 8
 permalink: /sauces
 ---
 
 <div style="background-color: #e8f0ec; color: #2f4f3e; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 1.2em;" markdown="1">
-**🍯 Sauces**
+**🍯 Sauces, vinaigrettes et marinades**
 </div>
 
 
@@ -63,3 +63,21 @@ permalink: /sauces
 > 1. Chauffer l'huile, l'ail et l'oignon.
 > 2. Ajouter le fécule de maïs. Cuire 1 minute.
 > 3. Ajouter les autres ingrédients. Amener à ébullition. Servir.
+
+---
+
+## Marinade Sésame et Gingembre
+
+> **Ingrédients :**
+> * 3 c. à soupe Sauce soja
+> * 1 c. à soupe Huile de sésame grillé
+> * 1 c. à soupe Miel ou sirop d'érable
+> * 1 c. à soupe Vinaigre de riz
+> * 1 c. à café Gingembre frais râpé
+> * 1 gousse Ail hachée finement
+> * 1 pincée Flocons de piment ou sauce Sriracha (optionnel)
+>
+> **Préparation :**
+> 1. Taillez votre poulet en fines lanières ou en cubes.
+> 2. Mélangez tous les ingrédients dans un bol ou un sac de congélation et laissez reposer au minimum 20 minutes au frais.
+> 3. Saisissez le poulet à la poêle à feu vif jusqu'à ce qu'il soit bien doré et laqué.
