@@ -93,7 +93,7 @@ permalink: /biscuits-friqndises
 ## Croustade pommes et fraises
 
 > **Ingrédients :**
-> * 4 tasses Pommes Paula Red (coupées en dés fins, avec la pelure)
+> * 4 tasses Pommes Paula Red ou Cortland (coupées en dés fins)
 > * 2 tasses Fraises fraîches (coupées en deux)
 > * 2 cuillères à soupe Sucre
 > * 1 cuillère à soupe Fécule de maïs
