@@ -231,6 +231,6 @@ permalink: /plats-principaux
 > * 2t coquilles 
 > * Du paprika 😀
 > 
-> **Étapes :**
+> **Préparation :**
 > Faire revenir l’oignon, l’ail, les épinards. Ajouter la purée de courge et utiliser l’eau de cuisson des pâtes pour la rendre plus « smooth ». 
 > Ajouter les tomates et la crème. Laisser la crème épaissir, ajouter le fromage et épicer en suivant ce que votre cœur vous dit 😌
