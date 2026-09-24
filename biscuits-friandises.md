@@ -112,3 +112,27 @@ permalink: /biscuits-friqndises
 > 4. Dans un autre bol, mélanger l'avoine, la farine, la cassonade, le sel et le beurre fondu à la fourchette jusqu'à l'obtention de gros grumeaux.
 > 5. Étendre le mélange de croustade uniformément sur les fruits.
 > 6. Cuire au four pendant 40 à 45 minutes, jusqu'à ce que le dessus soit bien doré et que les fruits bouillonnent.
+
+---
+
+## Gâteau étagé meringue et Oreo
+
+> **Ingrédients :**
+> * 5 unités blancs d’œufs
+> * 1 tasse sucre
+> * 1 c. à thé crème de tartre
+> * 750 ml crème à fouetter 35 %, très froide
+> * 1 paquet d’Oreo ordinaires d’environ 270 g
+> * 1 c. à thé vanille (facultatif)
+>
+> **Préparation :**
+> 1. Préchauffer le four à 250 °F.
+> 2. Fouetter les blancs d'œufs avec la crème de tartre. Ajouter graduellement le sucre et continuer jusqu’à l’obtention de pics fermes et brillants.
+> 3. Former 4 disques de meringue sur du papier parchemin.
+> 4. Cuire environ 45 à 60 minutes, jusqu’à ce que les disques soient secs et légèrement dorés. Laisser refroidir complètement.
+> 5. Concasser les Oreo assez grossièrement. En garder 4 ou 5 pour décorer.
+> 6. Fouetter la crème 35 % avec la vanille jusqu’à obtenir des pics fermes.
+> 7. Déposer un disque de meringue, une couche de crème fouettée et une bonne poignée d’Oreo. Répéter avec les autres disques.
+> 8. Couvrir le dessus et les côtés de crème, puis décorer avec les Oreo réservés.
+> 9. Congeler 1 heure avant de servir.
+
