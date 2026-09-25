@@ -11,18 +11,18 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 
 ---
 
-## 🔄 Convertisseur interactif
+## <i class="fa-solid fa-arrows-rotate"></i> Convertisseur interactif
 
 <div style="background: rgba(66, 41, 86, 0.05); padding: 18px; border-radius: 10px; border: 1px solid #422956; margin-bottom: 25px;">
-  <h3 style="margin-top: 0; color: #422956;">Volume (Tasses ➔ ml)</h3>
+  <h3 style="margin-top: 0; color: #422956;">Volume (Tasses <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</h3>
   <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="tassesInput" placeholder="Nombre de tasses" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 60%;">
+    <input type="number" id="tassesInput" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 60%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="mlResult">0</span> ml</span>
   </div>
 
-  <h3 style="color: #422956;">Température (°F ➔ °C)</h3>
+  <h3 style="color: #422956;">Température (°F <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> °C)</h3>
   <div style="display: flex; gap: 10px; align-items: center;">
-    <input type="number" id="fahrInput" placeholder="Degrés Fahrenheit" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 60%;">
+    <input type="number" id="fahrInput" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 60%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="celsiusResult">0</span> °C</span>
   </div>
 </div>
@@ -43,7 +43,7 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 
 ---
 
-## 📊 Équivalences de poids courantes
+## <i class="fa-solid fa-weight-hanging"></i> Équivalences de poids courantes
 
 | Ingrédient | 1/4 tasse | 1/2 tasse | 1 tasse |
 | :--- | :--- | :--- | :--- |
@@ -55,17 +55,17 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 
 ---
 
-## 🌡️ Températures du four
+## <i class="fa-solid fa-temperature-high"></i> Températures du four
 
-* **275 °F (140 °C)** : Rechauffer / Cuisson très lente
-* **350 °F (180 °C)** : La température standard (Gâteaux, biscuits, gratins)
-* **400 °F (200 °C)** : Rôtissage des légumes et viandes
-* **450 °F (230 °C)** : Pizzas et pains maison
+*   **275 °F (140 °C)** : Rechauffer / Cuisson très lente
+*   **350 °F (180 °C)** : La température standard (Gâteaux, biscuits, gratins)
+*   **400 °F (200 °C)** : Rôtissage des légumes et viandes
+*   **450 °F (230 °C)** : Pizzas et pains maison
 
 ---
 
-## 🆘 Substituts de dépannage
+## <i class="fa-solid fa-kit-medical"></i> Substituts de dépannage
 
-* **1 tasse de babeurre** $\rightarrow$ 1 tasse de lait + 1 c. à soupe de jus de citron (attendre 5 min).
-* **1 c. à thé de poudre à pâte** $\rightarrow$ 1/4 c. à thé de bicarbonate de soude + 1/2 c. à thé de crème de tartre.
-* **1 c. à soupe de fécule de maïs (épaississant)** $\rightarrow$ 2 c. à soupe de farine tout-usage.
+*   **1 tasse de babeurre** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1 tasse de lait + 1 c. à soupe de jus de citron (attendre 5 min).
+*   **1 c. à thé de poudre à pâte** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1/4 c. à thé de bicarbonate de soude + 1/2 c. à thé de crème de tartre.
+*   **1 c. à soupe de fécule de maïs** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 2 c. à soupe de farine tout-usage.
