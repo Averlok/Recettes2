@@ -1,11 +1,14 @@
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Cibler tous les titres de recettes (h2, h3)
-    document.querySelectorAll("h2, h3").forEach(function(header) {
-      // Ignorer le titre principal de la page s'il y en a un
-      if (!header.innerText) return;
+  function addCopyLinks() {
+    // Cibler tous les titres h2 et h3 dans le contenu principal
+    const headers = document.querySelectorAll(".main-content h2, .main-content h3, main h2, main h3, h2, h3");
 
-      // Créer un slug propre sans aucun accent
+    headers.forEach(function(header) {
+      // Éviter d'ajouter deux fois le bouton si le script repasse
+      if (header.querySelector(".messenger-copy-btn")) return;
+      if (!header.innerText.trim()) return;
+
+      // 1. Générer le slug propre sans accent
       const cleanSlug = header.innerText
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
@@ -14,50 +17,47 @@
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "");
 
-      // Assigner cet ID propre au titre
+      // Assigner le nouvel ID au titre
       header.id = cleanSlug;
 
-      // Créer le petit bouton de copie 🔗
+      // 2. Créer le bouton 🔗
       const copyBtn = document.createElement("button");
-      copyBtn.innerText = " 🔗";
+      copyBtn.className = "messenger-copy-btn";
+      copyBtn.innerHTML = " 🔗";
       copyBtn.style.background = "none";
       copyBtn.style.border = "none";
       copyBtn.style.cursor = "pointer";
-      copyBtn.style.fontSize = "0.75em";
-      copyBtn.title = "Copier le lien direct pour Messenger";
+      copyBtn.style.fontSize = "0.7em";
+      copyBtn.title = "Copier le lien sans accent pour Messenger";
 
       copyBtn.onclick = function(e) {
         e.preventDefault();
-        // Construire l'URL propre
+        e.stopPropagation();
+
         const cleanUrl = window.location.origin + window.location.pathname + "#" + cleanSlug;
-        
-        // Copier dans le presse-papier
+
         navigator.clipboard.writeText(cleanUrl).then(function() {
-          alert("Lien copié ! Il est prêt à être collé dans Messenger.");
+          alert("Lien propre copié ! Prêt à être collé dans Messenger.");
+        }).catch(function() {
+          // Fallback si la permission est bloquée
+          prompt("Copie ce lien :", cleanUrl);
         });
       };
 
       header.appendChild(copyBtn);
     });
+  }
 
-    // Scroller automatiquement si quelqu'un ouvre un lien propre
-    if (window.location.hash) {
-      const rawHash = window.location.hash.substring(1);
-      const cleanHash = decodeURIComponent(rawHash)
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .trim()
-        .replace(/[^a-z0-9]+/g, "-");
+  // Lancer au chargement de la page
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", addCopyLinks);
+  } else {
+    addCopyLinks();
+  }
 
-      setTimeout(function() {
-        const target = document.getElementById(cleanHash);
-        if (target) {
-          target.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 300);
-    }
-  });
+  // Relancer légèrement après pour contrecarrer les scripts du thème
+  setTimeout(addCopyLinks, 1000);
 </script>
+
 
 
