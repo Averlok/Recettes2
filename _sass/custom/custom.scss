@@ -1,10 +1,18 @@
-/* Couleur forcée sur la classe et TOUS ses enfants directs ou indirects */
+/* Couleur forcée sur la classe et TOUS ses enfants directs ou indirects 
 .titre-accueil,
 .titre-accueil *,
 #main-content .titre-accueil,
 #main-content .titre-accueil * {
   text-align: center !important;
   color: #C39A6B !important;
+}
+*/
+
+h1.titre-accueil {
+  text-align: center !important;
+  color: #C39A6B !important;
+  display: block !important;
+  width: 100% !important;
 }
 
 
