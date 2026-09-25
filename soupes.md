@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🥣 Soupes"
+title: '<i class="fa-solid fa-bowl-food"></i>Soupes'
 nav_order: 7
 permalink: /soupes
 ---
 
 <div class="categorie-header" markdown="1">
-**🥣 Soupes**
+**<i class="fa-solid fa-bowl-food"></i>Soupes**
 </div>
 
 
