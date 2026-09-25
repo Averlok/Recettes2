@@ -7,7 +7,7 @@ permalink: /plats-principaux
 
 <div class="categorie-header" markdown="1">
 **🍲 Plats Principaux**
-</di>
+</div>
 
 
 * Table des matières 
