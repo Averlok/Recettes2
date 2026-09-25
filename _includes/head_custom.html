@@ -1,5 +1,54 @@
 <script>
-  alert("Le script fonctionne!");
+  function addMessengerButtons() {
+    // Cibler tous les titres H2 et H3
+    const headers = document.querySelectorAll("h2, h3");
+
+    headers.forEach(function(header) {
+      // Éviter de rajouter le bouton en double
+      if (header.querySelector(".msg-btn")) return;
+      if (!header.innerText.trim()) return;
+
+      // Nettoyer le titre pour faire un ID sans accent
+      const cleanSlug = header.innerText
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+
+      // Assigner l'ID propre
+      header.id = cleanSlug;
+
+      // Créer le petit bouton 🔗
+      const btn = document.createElement("button");
+      btn.className = "msg-btn";
+      btn.innerHTML = " 🔗";
+      btn.style.cssText = "background:none; border:none; cursor:pointer; font-size:0.75em;";
+      btn.title = "Copier le lien sans accent pour Messenger";
+
+      btn.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const url = window.location.origin + window.location.pathname + "#" + cleanSlug;
+
+        navigator.clipboard.writeText(url).then(function() {
+          alert("Lien propre copié ! Prêt pour Messenger.");
+        }).catch(function() {
+          prompt("Copie ce lien :", url);
+        });
+      };
+
+      header.appendChild(btn);
+    });
+  }
+
+  // Lancer une fois le DOM prêt + un petit délai de sécurité pour Jekyll
+  document.addEventListener("DOMContentLoaded", function() {
+    addMessengerButtons();
+    setTimeout(addMessengerButtons, 500);
+  });
 </script>
 
 
