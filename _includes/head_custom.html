@@ -1,32 +1,33 @@
-<script>
+ <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 1. Nettoyer les ID de tous les titres
+    // Fonction pour virer complètement les accents et caractères spéciaux
+    function removeAccents(str) {
+      return str
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "") // Enlève les tildes/accents (ex: â -> a)
+        .toLowerCase()
+        .replace(/[^a-z0-9\-_]/g, "-")   // Remplace tout le reste non-ASCII par des tirets
+        .replace(/-+/g, "-");            // Évite les tirets doubles
+    }
+
+    // 1. Nettoyer les ID des titres h1-h4
     document.querySelectorAll("h1, h2, h3, h4").forEach(function(header) {
       if (header.id) {
-        header.id = header.id
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .toLowerCase();
+        header.id = removeAccents(decodeURIComponent(header.id));
       }
     });
 
-    // 2. Nettoyer les liens href (TOC) qui pointent vers ces ancres
+    // 2. Nettoyer les liens de la TOC
     document.querySelectorAll('a[href^="#"]').forEach(function(link) {
       const href = link.getAttribute("href");
       if (href && href.length > 1) {
-        // Décoder l'URL (pour convertir %C3%A2 en â), enlever les accents, puis réassigner
         try {
-          const decodedHref = decodeURIComponent(href);
-          const cleanHref = decodedHref
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .toLowerCase();
-          
-          link.setAttribute("href", cleanHref);
-        } catch(e) {
-          // Au cas où une ancre contient un caractère mal encodé
-        }
+          const rawAnchor = href.substring(1);
+          const cleanAnchor = removeAccents(decodeURIComponent(rawAnchor));
+          link.setAttribute("href", "#" + cleanAnchor);
+        } catch(e) {}
       }
     });
   });
 </script>
+
