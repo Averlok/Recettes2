@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "🍪 Desserts et Friandises"
 nav_order: 3
 permalink: /biscuits-friandises
