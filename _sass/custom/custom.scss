@@ -1,11 +1,11 @@
-/* Ciblage ultra-spécifique pour forcer la couleur du titre H1 */
-.main-content h1, 
-.page-heading, 
-h1.titre-accueil, 
-.main-content h1.titre-accueil { 
-  text-align: center !important;
+/* Couleur forcée sur la classe et TOUS ses enfants directs ou indirects */
+.titre-accueil,
+.titre-accueil *,
+#main-content .titre-accueil,
+#main-content .titre-accueil * {
   color: #C39A6B !important;
 }
+
 
 /* Si tu veux aussi forcer l'icône à l'intérieur */
 .main-content h1 i, 
