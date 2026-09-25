@@ -56,11 +56,11 @@ h1.titre-accueil {
 // On utilise 'i' pour cibler la balise elle-même, et !important pour forcer.
 i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
     color: #422956 !important;
-    margin-right: 6px !important;
+    margin-right: 7px !important;
 }
 
 // 3. Ciblage spécifique pour le menu de gauche (si jamais il reste récalcitrant)
 .nav-list-link i, .nav-list-item a i {
     color: #422956 !important;
-    margin-right: 6px !important;
+    margin-right: 7px !important;
 }
