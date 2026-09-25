@@ -2,13 +2,15 @@
 .main-content h1, 
 .page-heading, 
 h1.titre-accueil, 
-.main-content h1.titre-accueil {
+.main-content h1.titre-accueil { 
+  text-align: center !important;
   color: #422956 !important;
 }
 
 /* Si tu veux aussi forcer l'icône à l'intérieur */
 .main-content h1 i, 
 .main-content h1.titre-accueil i {
+  text-align: center !important;
   color: #422956 !important;
 }
 
