@@ -7,21 +7,11 @@ nav_order: 15
 <div class="categorie-header" markdown="1">
 **<i class="fa-solid fa-calculator"></i> Outils & Conversions**
 </div>
----
-layout: default
-title: Outils & Conversions
-nav_order: 10
----
 
-<div class="categorie-header" markdown="1">
-**<i class="fa-solid fa-calculator"></i> Outils & Conversions**
-</div>
 
 <div class="sous-titre">
 Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farine jusqu'aux coudes!
 </div>
-
----
 
 ---
 
