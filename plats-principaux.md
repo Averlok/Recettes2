@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🍲 Plats Principaux"
+title: '<i class="fa-solid fa-drumstick-bite"></i>Plats Principaux'
 nav_order: 6
 permalink: /plats-principaux
 ---
 
 <div class="categorie-header" markdown="1">
-**🍲 Plats Principaux**
+**<i class="fa-solid fa-drumstick-bite"></i>Plats Principaux**
 </div>
 
 
