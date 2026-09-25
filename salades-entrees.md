@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🥗 Salades et Entrées"
+title: '<i class="fa-solid fa-carrot"></i>Salades et Entrées'
 nav_order: 5
 permalink: /salades-entrees
 ---
 
 <div class="categorie-header" markdown="1">
-**🥗 Salades et Entrées**
+**<i class="fa-solid fa-carrot"></i>Salades et Entrées**
 </div>
 
 
