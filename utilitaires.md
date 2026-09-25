@@ -4,8 +4,9 @@ title: <i class="fa-solid fa-calculator"></i> Outils & Conversions
 nav_order: 15
 ---
 
-# <i class="fa-solid fa-calculator"></i> Outils & Conversions
-{:.titre-accueil}
+<div class="categorie-header" markdown="1">
+**<i class="fa-solid fa-calculator"></i> Outils & Conversions**
+</div>
 
 Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farine jusqu'aux coudes!
 
