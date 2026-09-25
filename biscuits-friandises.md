@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "🍪 Desserts et Friandises"
+title: '<i class="fa-solid fa-cookie-bite"></i>Desserts et Friandises'
 nav_order: 3
 permalink: /biscuits-friandises
 ---
