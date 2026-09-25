@@ -1,5 +1,5 @@
 ---
-title: 📚 Accueil
+title: '<i class="fa-solid fa-house"></i>Accueil'
 layout: home
 nav_order: 1
 ---
