@@ -6,7 +6,7 @@ permalink: /biscuits-friandises
 ---
 
 <div class="categorie-header" markdown="1">
-**🍪 Desserts et Friandises**
+**<i class="fa-solid fa-cookie-bite"></i>Desserts et Friandises**
 </div>
 
 
