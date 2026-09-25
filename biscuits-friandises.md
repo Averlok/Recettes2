@@ -9,6 +9,10 @@ permalink: /biscuits-friandises
 **🍪 Desserts et Friandises**
 </div>
 
+<div class="categorie-header" markdown="1">
+**🍪 Desserts et Friandises**
+</div>
+
 
 * Table des matières 
 {:toc min_level=3 max_level=3}
