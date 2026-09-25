@@ -16,30 +16,55 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 <div style="background: rgba(66, 41, 86, 0.05); padding: 18px; border-radius: 10px; border: 1px solid #422956; margin-bottom: 25px;">
   <h3 style="margin-top: 0; color: #422956;">Volume (Tasses <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</h3>
   <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="tassesInput" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 60%; font-size: 16px;">
+    <input type="number" id="tassesInput" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="mlResult">0</span> ml</span>
+  </div>
+
+  <h3 style="color: #422956;">Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</h3>
+  <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
+    <input type="number" id="casInput" placeholder="0" step="1" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <span style="font-weight: bold; color: #422956;">= <span id="casMlResult">0</span> ml</span>
   </div>
 
   <h3 style="color: #422956;">Température (°F <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> °C)</h3>
   <div style="display: flex; gap: 10px; align-items: center;">
-    <input type="number" id="fahrInput" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 60%; font-size: 16px;">
+    <input type="number" id="fahrInput" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="celsiusResult">0</span> °C</span>
   </div>
 </div>
 
 <script>
-  // Calculateur Tasses -> ML
+  // Tasses -> ml
   document.getElementById('tassesInput').addEventListener('input', function(e) {
     let val = parseFloat(e.target.value);
     document.getElementById('mlResult').innerText = isNaN(val) ? 0 : Math.round(val * 250);
   });
 
-  // Calculateur °F -> °C
+  // c. à soupe -> ml
+  document.getElementById('casInput').addEventListener('input', function(e) {
+    let val = parseFloat(e.target.value);
+    document.getElementById('casMlResult').innerText = isNaN(val) ? 0 : Math.round(val * 15);
+  });
+
+  // °F -> °C
   document.getElementById('fahrInput').addEventListener('input', function(e) {
     let val = parseFloat(e.target.value);
     document.getElementById('celsiusResult').innerText = isNaN(val) ? 0 : Math.round((val - 32) * 5 / 9);
   });
 </script>
+
+---
+
+## <i class="fa-solid fa-spoon"></i> Équivalences de cuillères et tasses
+
+| Mesure | Équivalent en cuillères | Métrique (ml) |
+| :--- | :--- | :--- |
+| **1 c. à thé (tsp)** | 1/3 c. à soupe | 5 ml |
+| **1 c. à soupe (tbsp)** | 3 c. à thé | 15 ml |
+| **1/4 tasse** | 4 c. à soupe | 60 ml |
+| **1/3 tasse** | 5 c. à soupe + 1 c. à thé | 80 ml |
+| **1/2 tasse** | 8 c. à soupe | 125 ml |
+| **1 tasse** | 16 c. à soupe | 250 ml |
 
 ---
 
@@ -52,20 +77,24 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 | **Cassonade (tassée)** | 55 g | 110 g | 220 g |
 | **Beurre** | 55 g | 115 g | 230 g |
 | **Pépites de chocolat** | 45 g | 90 g | 180 g |
+| **Cacao en poudre** | 25 g | 50 g | 100 g |
 
 ---
 
 ## <i class="fa-solid fa-temperature-high"></i> Températures du four
 
-*   **275 °F (140 °C)** : Rechauffer / Cuisson très lente
-*   **350 °F (180 °C)** : La température standard (Gâteaux, biscuits, gratins)
-*   **400 °F (200 °C)** : Rôtissage des légumes et viandes
-*   **450 °F (230 °C)** : Pizzas et pains maison
+* **275 °F (140 °C)** : Réchauffer / Cuisson très lente
+* **350 °F (180 °C)** : La température standard (Gâteaux, biscuits, gratins)
+* **400 °F (200 °C)** : Rôtissage des légumes et viandes
+* **450 °F (230 °C)** : Pizzas et pains maison
 
 ---
 
 ## <i class="fa-solid fa-kit-medical"></i> Substituts de dépannage
 
-*   **1 tasse de babeurre** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1 tasse de lait + 1 c. à soupe de jus de citron (attendre 5 min).
-*   **1 c. à thé de poudre à pâte** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1/4 c. à thé de bicarbonate de soude + 1/2 c. à thé de crème de tartre.
-*   **1 c. à soupe de fécule de maïs** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 2 c. à soupe de farine tout-usage.
+* **1 tasse de babeurre** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1 tasse de lait + 1 c. à soupe de jus de citron (attendre 5 min).
+* **1 c. à thé de poudre à pâte** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1/4 c. à thé de bicarbonate de soude + 1/2 c. à thé de crème de tartre.
+* **1 c. à soupe de fécule de maïs** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 2 c. à soupe de farine tout-usage.
+* **1 oeuf (en pâtisserie)** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1/2 banane écrasée OU 1 c. à soupe de graines de lin moulues + 3 c. à soupe d'eau.
+* **1 gousse d'ail** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1/8 c. à thé d'ail en poudre.
+* **1 tasse de crème sûre** <i class="fa-solid fa-arrow-right" style="color: #422956; font-size: 0.9em; margin: 0 5px;"></i> 1 tasse de yogourt grec nature.
