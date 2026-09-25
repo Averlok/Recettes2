@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🥣 Déjeuners et Barres Énergétiques"
+title: '<i class="fa-solid fa-mug-hot"></i>Déjeuners et Barres Énergétiques'
 nav_order: 4
 permalink: /dejeuner-energie
 ---
 
 <div class="categorie-header" markdown="1">
-**🥣 Déjeuners et Barres Énergétiques**
+**<i class="fa-solid fa-mug-hot"></i>Déjeuners et Barres Énergétiques**
 </div>
 
 
