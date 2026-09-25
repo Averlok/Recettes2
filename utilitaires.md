@@ -14,43 +14,42 @@ Un petit coin pratique pour ajuster tes mesures sans te casser la tête la farin
 ## <i class="fa-solid fa-arrows-rotate"></i> Convertisseur interactif
 
 <div style="background: rgba(66, 41, 86, 0.05); padding: 18px; border-radius: 10px; border: 1px solid #422956; margin-bottom: 25px;">
-  <h3 style="margin-top: 0; color: #422956;">Volume (Tasses <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</h3>
+  
+  <div style="font-weight: bold; color: #422956; margin-bottom: 5px;">Volume (Tasses <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</div>
   <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="tassesInput" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <input type="number" id="tassesInput" oninput="calculerTasses()" placeholder="0" step="0.25" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="mlResult">0</span> ml</span>
   </div>
 
-  <h3 style="color: #422956;">Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</h3>
+  <div style="font-weight: bold; color: #422956; margin-bottom: 5px;">Cuillères à soupe (c. à soupe <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> ml)</div>
   <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
-    <input type="number" id="casInput" placeholder="0" step="1" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <input type="number" id="casInput" oninput="calculerCas()" placeholder="0" step="1" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="casMlResult">0</span> ml</span>
   </div>
 
-  <h3 style="color: #422956;">Température (°F <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> °C)</h3>
+  <div style="font-weight: bold; color: #422956; margin-bottom: 5px;">Température (°F <i class="fa-solid fa-right-long" style="font-size: 0.8em; margin: 0 5px;"></i> °C)</div>
   <div style="display: flex; gap: 10px; align-items: center;">
-    <input type="number" id="fahrInput" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
+    <input type="number" id="fahrInput" oninput="calculerTemp()" placeholder="0" step="5" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 50%; font-size: 16px;">
     <span style="font-weight: bold; color: #422956;">= <span id="celsiusResult">0</span> °C</span>
   </div>
+
 </div>
 
 <script>
-  // Tasses -> ml
-  document.getElementById('tassesInput').addEventListener('input', function(e) {
-    let val = parseFloat(e.target.value);
+  function calculerTasses() {
+    let val = parseFloat(document.getElementById('tassesInput').value);
     document.getElementById('mlResult').innerText = isNaN(val) ? 0 : Math.round(val * 250);
-  });
+  }
 
-  // c. à soupe -> ml
-  document.getElementById('casInput').addEventListener('input', function(e) {
-    let val = parseFloat(e.target.value);
+  function calculerCas() {
+    let val = parseFloat(document.getElementById('casInput').value);
     document.getElementById('casMlResult').innerText = isNaN(val) ? 0 : Math.round(val * 15);
-  });
+  }
 
-  // °F -> °C
-  document.getElementById('fahrInput').addEventListener('input', function(e) {
-    let val = parseFloat(e.target.value);
+  function calculerTemp() {
+    let val = parseFloat(document.getElementById('fahrInput').value);
     document.getElementById('celsiusResult').innerText = isNaN(val) ? 0 : Math.round((val - 32) * 5 / 9);
-  });
+  }
 </script>
 
 ---
