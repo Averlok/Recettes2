@@ -7,7 +7,7 @@ permalink: /salades-entrees
 
 <div class="categorie-header" markdown="1">
 **🥗 Salades et Entrées**
-</di>
+</div>
 
 
 * Table des matières 
