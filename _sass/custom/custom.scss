@@ -1,12 +1,20 @@
-/* Couleur forcée sur la classe et TOUS ses enfants directs ou indirects 
-.titre-accueil,
-.titre-accueil *,
-#main-content .titre-accueil,
-#main-content .titre-accueil * {
-  text-align: center !important;
-  color: #C39A6B !important;
+// 1. Variables globales de Just the Docs
+$link-color: #422956;
+$btn-primary-color: #422956;
+$nav-child-link-color: #422956;
+
+// 2. Écrasement direct pour le menu mobile et la TOC
+.nav-list .nav-list-link,
+.toc-list a,
+.site-nav a {
+  color: #422956 !important;
+  
+  &:hover,
+  &.active {
+    color: #C39A6B !important;
+  }
 }
-*/
+
 
 /* Titre d'accueil : couleur + centrage Flexbox forcé */
 h1.titre-accueil {
@@ -28,26 +36,7 @@ h1.titre-accueil {
 
 
 
-/* Couleur des liens de navigation (Menu latéral & TOC) */
-.nav-list .nav-list-item .nav-list-link,
-.toc-list .toc-list-item a,
-.main-content a {
-  color: #422956 !important; /* Ton violet principal */
-}
 
-/* Survol (Hover) et lien actif dans le menu */
-.nav-list .nav-list-item .nav-list-link:hover,
-.nav-list .nav-list-item .nav-list-link.active,
-.toc-list .toc-list-item a:hover,
-.main-content a:hover {
-  color: #C39A6B !important; /* Ton accent beige/doré au survol */
-}
-
-/* Couleur du fond de l'élément actif dans le menu */
-.nav-list .nav-list-item.active > .nav-list-link {
-  color: #C39A6B !important;
-  background-image: linear-gradient(to right, rgba(66, 41, 86, 0.1), transparent) !important;
-}
 
 // Style personnalisé pour les en-têtes de catégories HériLoup
 .categorie-header {
