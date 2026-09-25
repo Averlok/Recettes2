@@ -7,7 +7,7 @@ permalink: /sauces
 
 <div class="categorie-header" markdown="1">
 **🍯 Sauces, vinaigrettes et marinades**
-</di>
+</div>
 
 
 * Table des matières 
