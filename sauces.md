@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "🍯 Sauces, vinaigrettes et marinades"
+title: '<i class="fa-solid fa-jar"></i>Sauces, vinaigrettes et marinades'
 nav_order: 8
 permalink: /sauces
 ---
 
 <div class="categorie-header" markdown="1">
-**🍯 Sauces, vinaigrettes et marinades**
+**<i class="fa-solid fa-jar"></i>Sauces, vinaigrettes et marinades**
 </div>
 
 
