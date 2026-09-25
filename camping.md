@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "⛺ Camping"
+title: '<i class="fa-solid fa-campground"></i>Camping'
 nav_order: 9
 permalink: /camping
 ---
 
 <div class="categorie-header" markdown="1">
-**⛺ Camping**
+**<i class="fa-solid fa-campground"></i>Camping**
 </div>
 
 
