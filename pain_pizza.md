@@ -1,6 +1,5 @@
 ---
 layout: home
-# title: "🍞 Pains et Pizzas"
 title: '<i class="fa-solid fa-pizza-slice"></i> Pains et Pizzas'
 nav_order: 2
 permalink: /Pain_Pizzas
@@ -8,7 +7,7 @@ permalink: /Pain_Pizzas
 <!--# 📚 Livre de Recettes-->
 
 <div class="categorie-header" markdown="1">
-**🍞 Pains et Pizzas**
+**<i class="fa-solid fa-pizza-slice"></i> Pains et Pizzas**
 </div>
 
 
