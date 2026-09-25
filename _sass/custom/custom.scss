@@ -8,10 +8,13 @@
 }
 */
 
+/* Titre d'accueil : couleur + centrage Flexbox forcé */
 h1.titre-accueil {
-  text-align: center !important;
   color: #C39A6B !important;
-  display: block !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   width: 100% !important;
 }
 
