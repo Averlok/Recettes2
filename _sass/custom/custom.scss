@@ -44,7 +44,7 @@ h1.titre-accueil {
   background: rgba(66, 41, 86, 0.05);
   border: 1px solid #422956;
   border-radius: 10px;
-  padding: 4px 20px;
+  padding: 2px 20px;
   margin-bottom: 25px;
   color: #422956;
   text-align: center;
@@ -65,13 +65,13 @@ h1.titre-accueil {
 // On utilise 'i' pour cibler la balise elle-même, et !important pour forcer.
 i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
     color: #422956 !important;
-    margin-right: 7px !important;
+    margin-right: 8px !important;
 }
 
 // 3. Ciblage spécifique pour le menu de gauche (si jamais il reste récalcitrant)
 .nav-list-link i, .nav-list-item a i {
     color: #422956 !important;
-    margin-right: 7px !important;
+    margin-right: 8px !important;
 }
 
 /* Sous-titre sous les encadrés de catégories */
