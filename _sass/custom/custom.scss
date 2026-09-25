@@ -3,17 +3,19 @@ $link-color: #422956;
 $btn-primary-color: #422956;
 $nav-child-link-color: #422956;
 
-// 2. Écrasement direct pour le menu mobile et la TOC
+// 2. Écrasement direct pour le menu, la TOC et TOUS les liens dans le contenu
 .nav-list .nav-list-link,
-.toc-list a,
-.site-nav a {
+.site-nav a,
+.main-content a,
+.main-content ul li a {
   color: #422956 !important;
-  
+
   &:hover,
-  &.active {
+  &:focus {
     color: #C39A6B !important;
   }
 }
+
 
 
 /* Titre d'accueil : couleur + centrage Flexbox forcé */
