@@ -1,8 +1,17 @@
-/* Titre centré pour la page d'accueil */
-.titre-accueil {
-  text-align: center !important;
-  color: #C39A6B !important;
+/* Ciblage ultra-spécifique pour forcer la couleur du titre H1 */
+.main-content h1, 
+.page-heading, 
+h1.titre-accueil, 
+.main-content h1.titre-accueil {
+  color: #422956 !important;
 }
+
+/* Si tu veux aussi forcer l'icône à l'intérieur */
+.main-content h1 i, 
+.main-content h1.titre-accueil i {
+  color: #422956 !important;
+}
+
 
 // Style personnalisé pour les en-têtes de catégories HériLoup
 .categorie-header {
