@@ -7,7 +7,7 @@ permalink: /soupes
 
 <div class="categorie-header" markdown="1">
 **🥣 Soupes**
-</di>
+</div>
 
 
 * Table des matières 
