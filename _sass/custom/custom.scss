@@ -8,8 +8,26 @@
   font-size: 1.2em;
 }
 
-/* Couleur et espacement pour les icônes Font Awesome */
-.fa-solid, .fa-regular {
-  color: #422956;
-  margin-right: 8px;
+// --- Styles Personnalisés HériLoup ---
+
+// 1. Force la couleur et l'espacement sur TOUTES les icônes Font Awesome
+// On utilise 'i' pour cibler la balise elle-même, et !important pour forcer.
+i.fa-solid, i.fa-regular, .fa-solid, .fa-regular {
+    color: #422956 !important;
+    margin-right: 10px !important; // Marge augmentée pour être sûr de la voir
+    display: inline-block;
+    vertical-align: middle;
+}
+
+// 2. Ciblage spécifique pour la page elle-même (le titre h1)
+// h1.categorie-header { ... } <- Ton style de header actuel
+h1.categorie-header i {
+    color: #422956 !important;
+    margin-right: 10px !important;
+}
+
+// 3. Ciblage spécifique pour le menu de gauche (si jamais il reste récalcitrant)
+.nav-list-link i, .nav-list-item a i {
+    color: #422956 !important;
+    margin-right: 10px !important;
 }
