@@ -1,44 +1,62 @@
- <script>
+<script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Fonction pour nettoyer n'importe quel texte/id d'accent
-    function cleanSlug(text) {
-      return decodeURIComponent(text)
+    // Cibler tous les titres de recettes (h2, h3)
+    document.querySelectorAll("h2, h3").forEach(function(header) {
+      // Ignorer le titre principal de la page s'il y en a un
+      if (!header.innerText) return;
+
+      // Créer un slug propre sans aucun accent
+      const cleanSlug = header.innerText
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
         .toLowerCase()
-        .replace(/[^a-z0-9\-_]/g, "-")
-        .replace(/-+/g, "-");
-    }
+        .trim()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
 
-    // 1. On nettoie les ID de tous les titres de recettes sur la page
-    document.querySelectorAll("h1, h2, h3, h4").forEach(function(header) {
-      if (header.id) {
-        header.id = cleanSlug(header.id);
-      }
+      // Assigner cet ID propre au titre
+      header.id = cleanSlug;
+
+      // Créer le petit bouton de copie 🔗
+      const copyBtn = document.createElement("button");
+      copyBtn.innerText = " 🔗";
+      copyBtn.style.background = "none";
+      copyBtn.style.border = "none";
+      copyBtn.style.cursor = "pointer";
+      copyBtn.style.fontSize = "0.75em";
+      copyBtn.title = "Copier le lien direct pour Messenger";
+
+      copyBtn.onclick = function(e) {
+        e.preventDefault();
+        // Construire l'URL propre
+        const cleanUrl = window.location.origin + window.location.pathname + "#" + cleanSlug;
+        
+        // Copier dans le presse-papier
+        navigator.clipboard.writeText(cleanUrl).then(function() {
+          alert("Lien copié ! Il est prêt à être collé dans Messenger.");
+        });
+      };
+
+      header.appendChild(copyBtn);
     });
 
-    // 2. On intercepte le clic sur les liens de la TOC
-    document.querySelectorAll('a[href^="#"]').forEach(function(link) {
-      const rawHref = link.getAttribute("href").substring(1);
-      const cleanHref = cleanSlug(rawHref);
+    // Scroller automatiquement si quelqu'un ouvre un lien propre
+    if (window.location.hash) {
+      const rawHash = window.location.hash.substring(1);
+      const cleanHash = decodeURIComponent(rawHash)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9]+/g, "-");
 
-      // On met à jour le href du lien
-      link.setAttribute("href", "#" + cleanHref);
-
-      // Quand on clique sur le lien dans la TOC
-      link.addEventListener("click", function(e) {
-        e.preventDefault();
-        
-        // Mettre à jour l'URL dans la barre de navigateur SANS accent
-        history.pushState(null, null, "#" + cleanHref);
-
-        // Scroller jusqu'à la recette
-        const target = document.getElementById(cleanHref);
+      setTimeout(function() {
+        const target = document.getElementById(cleanHash);
         if (target) {
           target.scrollIntoView({ behavior: "smooth" });
         }
-      });
-    });
+      }, 300);
+    }
   });
 </script>
 
