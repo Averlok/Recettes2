@@ -15,23 +15,6 @@ h1.titre-accueil,
 }
 
 
-/* Ciblage direct du titre de page Just the Docs */
-.page-title, 
-.main-content .page-title,
-.content-heading h1,
-#main-content h1 {
-  text-align: center !important;
-  color: #422956 !important;
-  display: block !important;
-  width: 100% !important;
-}
-
-/* Pour s'assurer que le conteneur du titre prend toute la largeur */
-.content-heading {
-  text-align: center !important;
-}
-
-
 // Style personnalisé pour les en-têtes de catégories HériLoup
 .categorie-header {
   background-color: #F0EAF4; // Lavande Doux
