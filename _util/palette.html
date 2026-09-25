@@ -3,66 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Palette de couleurs — HériLoup</title>
-  <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #f8f9fa;
-      color: #333333;
-      margin: 0;
-      padding: 2rem 1rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .container {
-      max-width: 800px;
-      width: 100%;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2.5rem;
-    }
-    h1 {
-      color: #422956;
-      margin-bottom: 0.5rem;
-      font-size: 2rem;
-    }
-    p.subtitle {
-      color: #666666;
-      margin: 0;
-      font-size: 1.05rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.5rem;
-      margin-bottom: 2.5rem;
-    }
-    .card {
-      background: #ffffff;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      display: flex;
-      flex-direction: column;
-    }
-    .swatch {
-      height: 130px;
-      width: 100%;
-    }
-    .info {
-      padding: 1.25rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    .color-name {
-      font-weight: 700;
-      font-size: 1.1rem;
-      color: #222222;
-    }
-    .color-code {
+  <title>Palette HériLoup</title>
+</head>
+<body style="font-family: sans-serif; background-color: #f8f9fa; padding: 20px; color: #333;">
+
+  <h1 style="color: #422956; text-align: center;">Palette de couleurs — HériLoup</h1>
+  <p style="text-align: center; color: #666;">Référence visuelle pour le carnet de recettes</p>
+
+  <div style="max-width: 600px; margin: 30px auto;">
+
+    <div style="background: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd;">
+      <div style="background-color: #422956; height: 60px;"></div>
+      <div style="padding: 15px;">
+        <strong>Violet Fond</strong> — <code style="background: #eee; padding: 2px 6px;">#422956</code>
+        <br><small style="color: #666;">Fond du logo, titres principaux et en-têtes.</small>
+      </div>
+    </div>
+
+    <div style="background: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd;">
+      <div style="background-color: #F0EAF4; height: 60px;"></div>
+      <div style="padding: 15px;">
+        <strong>Lavande Doux</strong> — <code style="background: #eee; padding: 2px 6px;">#F0EAF4</code>
+        <br><small style="color: #666;">Fond des encadrés et cartes de catégories.</small>
+      </div>
+    </div>
+
+    <div style="background: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd;">
+      <div style="background-color: #C39A6B; height: 60px;"></div>
+      <div style="padding: 15px;">
+        <strong>Or Accent</strong> — <code style="background: #eee; padding: 2px 6px;">#C39A6B</code>
+        <br><small style="color: #666;">Puces, bordures et accents lumineux.</small>
+      </div>
+    </div>
+
+    <div style="background: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd;">
+      <div style="background-color: #FFFFFF; height: 60px; border-bottom: 1px solid #eee;"></div>
+      <div style="padding: 15px;">
+        <strong>Blanc Pur</strong> — <code style="background: #eee; padding: 2px 6px;">#FFFFFF</code>
+        <br><small style="color: #666;">Fond de page et lisibilité du texte.</small>
+      </div>
+    </div>
+
+    <div style="background: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd;">
+      <div style="background-color: #7D7289; height: 60px;"></div>
+      <div style="padding: 15px;">
+        <strong>Texte Lavande</strong> — <code style="background: #eee; padding: 2px 6px;">#7D7289</code>
+        <br><small style="color: #666;">Texte secondaire et sous-titres.</small>
+      </div>
+    </div>
+
+    <div style="background: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd;">
+      <div style="background-color: #E1D9E7; height: 60px;"></div>
+      <div style="padding: 15px;">
+        <strong>Gris-Lavande UI</strong> — <code style="background: #eee; padding: 2px 6px;">#E1D9E7</code>
+        <br><small style="color: #666;">Séparateurs et bordures d'interface.</small>
+      </div>
+    </div>
+
+    <div style="background-color: #F0EAF4; border-left: 5px solid #422956; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 30px;">
+      <h3 style="color: #422956; margin: 0 0 10px 0;">Aperçu d'une recette</h3>
+      <p style="color: #7D7289; margin: 0;">Voici le rendu du texte avec le fond lavande et la bordure violette.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
