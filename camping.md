@@ -7,7 +7,7 @@ permalink: /camping
 
 <div class="categorie-header" markdown="1">
 **⛺ Camping**
-</di>
+</div>
 
 
 * Table des matières 
