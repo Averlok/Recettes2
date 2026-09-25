@@ -1,14 +1,15 @@
 <script>
-  function addMessengerButtons() {
-    // Cibler tous les titres H2 et H3
+  function setupMessengerLinks() {
+    // Cibler tous les titres H2 et H3 dans la page
     const headers = document.querySelectorAll("h2, h3");
 
     headers.forEach(function(header) {
-      // Éviter de rajouter le bouton en double
-      if (header.querySelector(".msg-btn")) return;
+      if (header.getAttribute("data-msg-setup")) return;
       if (!header.innerText.trim()) return;
 
-      // Nettoyer le titre pour faire un ID sans accent
+      header.setAttribute("data-msg-setup", "true");
+
+      // 1. Générer le slug sans aucun accent
       const cleanSlug = header.innerText
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
@@ -17,38 +18,52 @@
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "");
 
-      // Assigner l'ID propre
+      // Assigner cet ID propre au titre
       header.id = cleanSlug;
 
-      // Créer le petit bouton 🔗
+      // 2. Créer le bouton 🔗
       const btn = document.createElement("button");
-      btn.className = "msg-btn";
       btn.innerHTML = " 🔗";
       btn.style.cssText = "background:none; border:none; cursor:pointer; font-size:0.75em;";
-      btn.title = "Copier le lien sans accent pour Messenger";
+      btn.title = "Copier le lien pour Messenger";
 
       btn.onclick = function(e) {
         e.preventDefault();
         e.stopPropagation();
 
-        const url = window.location.origin + window.location.pathname + "#" + cleanSlug;
+        const cleanUrl = window.location.origin + window.location.pathname + "#" + cleanSlug;
 
-        navigator.clipboard.writeText(url).then(function() {
-          alert("Lien propre copié ! Prêt pour Messenger.");
+        navigator.clipboard.writeText(cleanUrl).then(function() {
+          alert("Lien propre copié ! Prêt à être collé dans Messenger.");
         }).catch(function() {
-          prompt("Copie ce lien :", url);
+          prompt("Copie ce lien :", cleanUrl);
         });
       };
 
       header.appendChild(btn);
     });
+
+    // 3. Si la page est ouverte avec un hash (#), scroller jusqu'au titre
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        setTimeout(function() {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }, 300);
+      }
+    }
   }
 
-  // Lancer une fois le DOM prêt + un petit délai de sécurité pour Jekyll
-  document.addEventListener("DOMContentLoaded", function() {
-    addMessengerButtons();
-    setTimeout(addMessengerButtons, 500);
-  });
+  // Lancement du script
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupMessengerLinks);
+  } else {
+    setupMessengerLinks();
+  }
+
+  // Petit délai supplémentaire pour s'assurer que tout le Markdown est affiché
+  setTimeout(setupMessengerLinks, 500);
 </script>
 
 
