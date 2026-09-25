@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # Le livre de recettes HériLoup
-{: .text-center }
+{: .titre-accueil }
 <!--
 ![Le loup et la hérissonne en cuisine](assets/images/background-removed.png)
 -->
