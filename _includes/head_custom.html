@@ -1,69 +1,65 @@
 <script>
-  function setupMessengerLinks() {
-    // Cibler tous les titres H2 et H3 dans la page
-    const headers = document.querySelectorAll("h2, h3");
+  (function() {
+    function injectButtons() {
+      // Aller chercher tous les titres h1, h2, h3, h4
+      const headers = document.querySelectorAll("h1, h2, h3, h4");
 
-    headers.forEach(function(header) {
-      if (header.getAttribute("data-msg-setup")) return;
-      if (!header.innerText.trim()) return;
+      headers.forEach(function(header) {
+        // Ignorer si déjà traité ou si c'est le titre principal du site
+        if (header.hasAttribute("data-msg-ok")) return;
+        if (!header.innerText || header.innerText.trim() === "") return;
 
-      header.setAttribute("data-msg-setup", "true");
+        header.setAttribute("data-msg-ok", "true");
 
-      // 1. Générer le slug sans aucun accent
-      const cleanSlug = header.innerText
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .trim()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
+        // 1. Créer le slug propre sans aucun accent
+        const cleanSlug = header.innerText
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .trim()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "");
 
-      // Assigner cet ID propre au titre
-      header.id = cleanSlug;
+        header.id = cleanSlug;
 
-      // 2. Créer le bouton 🔗
-      const btn = document.createElement("button");
-      btn.innerHTML = " 🔗";
-      btn.style.cssText = "background:none; border:none; cursor:pointer; font-size:0.75em;";
-      btn.title = "Copier le lien pour Messenger";
+        // 2. Créer le bouton 🔗
+        const btn = document.createElement("button");
+        btn.innerHTML = " 🔗";
+        btn.style.cssText = "background:none !important; border:none !important; cursor:pointer !important; font-size:0.75em !important; display:inline-block !important;";
+        btn.title = "Copier le lien pour Messenger";
 
-      btn.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
+        btn.onclick = function(e) {
+          e.preventDefault();
+          e.stopPropagation();
 
-        const cleanUrl = window.location.origin + window.location.pathname + "#" + cleanSlug;
+          const url = window.location.origin + window.location.pathname + "#" + cleanSlug;
 
-        navigator.clipboard.writeText(cleanUrl).then(function() {
-          alert("Lien propre copié ! Prêt à être collé dans Messenger.");
-        }).catch(function() {
-          prompt("Copie ce lien :", cleanUrl);
-        });
-      };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(function() {
+              alert("Lien propre copié !");
+            }).catch(function() {
+              prompt("Copie ce lien :", url);
+            });
+          } else {
+            prompt("Copie ce lien :", url);
+          }
+        };
 
-      header.appendChild(btn);
+        header.appendChild(btn);
+      });
+    }
+
+    // Surveiller les changements dans le DOM en temps réel
+    const observer = new MutationObserver(function() {
+      injectButtons();
     });
 
-    // 3. Si la page est ouverte avec un hash (#), scroller jusqu'au titre
-    if (window.location.hash) {
-      const targetId = window.location.hash.substring(1);
-      const targetElement = document.getElementById(targetId);
-      if (targetElement) {
-        setTimeout(function() {
-          targetElement.scrollIntoView({ behavior: "smooth" });
-        }, 300);
-      }
-    }
-  }
-
-  // Lancement du script
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setupMessengerLinks);
-  } else {
-    setupMessengerLinks();
-  }
-
-  // Petit délai supplémentaire pour s'assurer que tout le Markdown est affiché
-  setTimeout(setupMessengerLinks, 500);
+    document.addEventListener("DOMContentLoaded", function() {
+      injectButtons();
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  })();
 </script>
+
 
 
