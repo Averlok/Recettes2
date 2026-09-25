@@ -38,17 +38,25 @@ h1.titre-accueil {
 
 
 
-
-
-// Style personnalisé pour les en-têtes de catégories HériLoup
+/* Encadré de catégorie / titre principal */
 .categorie-header {
-  background-color: #F0EAF4 !important; // Lavande Doux
-  color: #422956 !important;            // Violet Fond
-  padding: 10px 15px !important;
-  border-radius: 6px !important;
-  font-weight: bold !important;
-  font-size: 1.2em !important;
+  background: rgba(66, 41, 86, 0.05);
+  border: 1px solid #422956;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 25px;
+  color: #422956;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+
+  /* Alignement et couleur des icônes Font Awesome à l'intérieur */
+  i.fa-solid {
+    margin-right: 10px;
+    color: #422956;
+  }
 }
+
 
 // --- Styles Personnalisés HériLoup ---
 
