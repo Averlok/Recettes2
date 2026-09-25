@@ -1,11 +1,31 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // 1. Nettoyer les ID de tous les titres
     document.querySelectorAll("h1, h2, h3, h4").forEach(function(header) {
       if (header.id) {
         header.id = header.id
           .normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
           .toLowerCase();
+      }
+    });
+
+    // 2. Nettoyer les liens href (TOC) qui pointent vers ces ancres
+    document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+      const href = link.getAttribute("href");
+      if (href && href.length > 1) {
+        // Décoder l'URL (pour convertir %C3%A2 en â), enlever les accents, puis réassigner
+        try {
+          const decodedHref = decodeURIComponent(href);
+          const cleanHref = decodedHref
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase();
+          
+          link.setAttribute("href", cleanHref);
+        } catch(e) {
+          // Au cas où une ancre contient un caractère mal encodé
+        }
       }
     });
   });
