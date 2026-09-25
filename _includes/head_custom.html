@@ -1,33 +1,45 @@
  <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Fonction pour virer complètement les accents et caractères spéciaux
-    function removeAccents(str) {
-      return str
+    // Fonction pour nettoyer n'importe quel texte/id d'accent
+    function cleanSlug(text) {
+      return decodeURIComponent(text)
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "") // Enlève les tildes/accents (ex: â -> a)
+        .replace(/[\u0300-\u036f]/g, "")
         .toLowerCase()
-        .replace(/[^a-z0-9\-_]/g, "-")   // Remplace tout le reste non-ASCII par des tirets
-        .replace(/-+/g, "-");            // Évite les tirets doubles
+        .replace(/[^a-z0-9\-_]/g, "-")
+        .replace(/-+/g, "-");
     }
 
-    // 1. Nettoyer les ID des titres h1-h4
+    // 1. On nettoie les ID de tous les titres de recettes sur la page
     document.querySelectorAll("h1, h2, h3, h4").forEach(function(header) {
       if (header.id) {
-        header.id = removeAccents(decodeURIComponent(header.id));
+        header.id = cleanSlug(header.id);
       }
     });
 
-    // 2. Nettoyer les liens de la TOC
+    // 2. On intercepte le clic sur les liens de la TOC
     document.querySelectorAll('a[href^="#"]').forEach(function(link) {
-      const href = link.getAttribute("href");
-      if (href && href.length > 1) {
-        try {
-          const rawAnchor = href.substring(1);
-          const cleanAnchor = removeAccents(decodeURIComponent(rawAnchor));
-          link.setAttribute("href", "#" + cleanAnchor);
-        } catch(e) {}
-      }
+      const rawHref = link.getAttribute("href").substring(1);
+      const cleanHref = cleanSlug(rawHref);
+
+      // On met à jour le href du lien
+      link.setAttribute("href", "#" + cleanHref);
+
+      // Quand on clique sur le lien dans la TOC
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        
+        // Mettre à jour l'URL dans la barre de navigateur SANS accent
+        history.pushState(null, null, "#" + cleanHref);
+
+        // Scroller jusqu'à la recette
+        const target = document.getElementById(cleanHref);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      });
     });
   });
 </script>
+
 
